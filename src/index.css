@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.fade-right {
+    animation: fadeRight 1s ease-in-out;
+    transform: translateX(20px);
+    /* Start off the screen to the right */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+}
+
+.fade-right.active {
+    opacity: 1;
+    transform: translateX(0);
+    /* Move to its original position */
+}
+
+@keyframes fadeRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+        /* Start off the screen to the right */
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+        /* Move to its original position */
+    }
+}
