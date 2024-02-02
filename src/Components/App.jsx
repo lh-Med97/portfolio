@@ -91,8 +91,8 @@ function App() {
           </div>
         )}
         <div className=" bg-black mx-auto my-20 h-screen  ">  <Hero></Hero> </div>
-        <div className="bg-black mx-auto my-20 mt-28 h-screen  "> </div>
-        <div className=" bg-black mx-auto my-20 h-screen  "> comit  </div>
+        <div className="bg-black mx-auto my-20 mt-28 h-screen  "><WaterDropGridW></WaterDropGridW> </div>
+        <div className=" bg-black mx-auto my-20 h-screen  "> </div>
         <div className='bg-black mx-auto my-10  h-screen'>  </div>
         
        
